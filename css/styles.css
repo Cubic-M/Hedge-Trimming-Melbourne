@@ -566,18 +566,7 @@ blockquote p:last-child {
   font-size: 1.2rem;
   font-weight: lighter; }
 #services h3, #about h3 {
-  font-size: 1rem;
-  cursor: pointer; }
-  #services h3 svg, #about h3 svg {
-    height: 0.8rem;
-    width: auto;
-    margin-left: 0.2rem; }
-#services .hide, #about .hide {
-  height: 0;
-  overflow: hidden; }
-#services .mirror, #about .mirror {
-  -webkit-transform: scaleY(-1);
-          transform: scaleY(-1); }
+  font-size: 1rem; }
 #services li, #about li {
   background-image: url("../img/check.svg");
   background-repeat: no-repeat;
@@ -636,15 +625,15 @@ blockquote p:last-child {
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
+  @media (min-width: 900) {
+    .separation {
+      background-image: url("../img/hedge2_1280.jpg"); } }
+  @media (min-width: 1280px) and (max-width: 1920px) {
+    .separation {
+      background-image: url("../img/hedge2_1920.jpg"); } }
 
 .separation:last-of-type {
   height: 50px; }
-  @media (min-width: 900) {
-    .separation:last-of-type {
-      background-image: url("../img/hedge2_1280.jpg"); } }
-  @media (min-width: 1280px) and (max-width: 1920px) {
-    .separation:last-of-type {
-      background-image: url("../img/hedge2_1920.jpg"); } }
 
 form {
   box-sizing: border-box;
