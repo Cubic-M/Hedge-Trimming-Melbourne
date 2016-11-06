@@ -835,7 +835,7 @@ footer {
   footer span {
     position: absolute;
     bottom: 0;
-    margin: 20px;
+    margin: 20px auto;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
 
